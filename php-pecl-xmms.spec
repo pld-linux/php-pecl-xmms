@@ -23,12 +23,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This extension provides functions to interact with xmms.
 
-This extension has in PEAR status: %{_status}.
+In PECL status of this package is: %{_status}.
 
 %description -l pl
 To rozszerzenie dostarcza funkcji do wspó³pracy z xmms.
 
-To rozszerzenie ma w PEAR status: %{_status}.
+To rozszerzenie ma w PECL status: %{_status}.
 
 %prep
 %setup -q -c
