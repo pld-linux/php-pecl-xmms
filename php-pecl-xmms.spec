@@ -12,6 +12,7 @@ Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 URL:		http://pecl.php.net/package/xmms/
 BuildRequires:	libtool
 BuildRequires:	php-devel
+BuildRequires:	xmms-devel
 Requires:	php-common
 Obsoletes:	php-pear-%{_modname}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
