@@ -21,12 +21,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		extensionsdir	%{_libdir}/php
 
 %description
-This extension provides functions to interact with xmms.
+This extension provides functions to interact with XMMS.
 
 In PECL status of this package is: %{_status}.
 
 %description -l pl
-To rozszerzenie dostarcza funkcji do wspó³pracy z xmms.
+To rozszerzenie dostarcza funkcji do wspó³pracy z XMMS.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
