@@ -10,7 +10,6 @@ Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	e12cf72e1657bb3ae9e2ec89d6e840e8
 URL:		http://pecl.php.net/package/xmms/
-BuildRequires:	libtool
 BuildRequires:	php-devel
 BuildRequires:	xmms-devel
 Requires:	php-common
