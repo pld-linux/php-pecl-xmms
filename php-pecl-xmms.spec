@@ -4,19 +4,18 @@
 %define		_status		beta
 %define		_sysconfdir	/etc/php
 %define		extensionsdir	%(php-config --extension-dir 2>/dev/null)
-
 Summary:	%{_modname} - A simple libxmms extension
 Summary(pl):	%{_modname} - Proste rozszerzenie libxmms
 Name:		php-pecl-%{_modname}
 Version:	0.2
-Release:	1
+Release:	1.1
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	e12cf72e1657bb3ae9e2ec89d6e840e8
 URL:		http://pecl.php.net/package/xmms/
 BuildRequires:	php-devel >= 3:5.0.0
-BuildRequires:	rpmbuild(macros) >= 1.238
+BuildRequires:	rpmbuild(macros) >= 1.254
 BuildRequires:	xmms-devel
 %{?requires_php_extension}
 Requires:	%{_sysconfdir}/conf.d
