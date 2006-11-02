@@ -15,7 +15,7 @@ Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	e12cf72e1657bb3ae9e2ec89d6e840e8
 URL:		http://pecl.php.net/package/xmms/
 BuildRequires:	php-devel >= 3:5.0.0
-BuildRequires:	rpmbuild(macros) >= 1.254
+BuildRequires:	rpmbuild(macros) >= 1.322
 BuildRequires:	xmms-devel
 %{?requires_php_extension}
 Requires:	%{_sysconfdir}/conf.d
