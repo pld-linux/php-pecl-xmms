@@ -3,7 +3,7 @@
 %define		_modname	xmms
 %define		_status		beta
 Summary:	%{_modname} - A simple libxmms extension
-Summary(pl):	%{_modname} - Proste rozszerzenie libxmms
+Summary(pl.UTF-8):   %{_modname} - Proste rozszerzenie libxmms
 Name:		php-pecl-%{_modname}
 Version:	0.2
 Release:	1.1
@@ -25,8 +25,8 @@ This extension provides functions to interact with XMMS.
 
 In PECL status of this package is: %{_status}.
 
-%description -l pl
-To rozszerzenie dostarcza funkcji do wsp�pracy z XMMS.
+%description -l pl.UTF-8
+To rozszerzenie dostarcza funkcji do współpracy z XMMS.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
